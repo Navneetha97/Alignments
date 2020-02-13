@@ -1,0 +1,12 @@
+---
+title: "Clinical Report Analysis"
+author: "Navneetha Hardikar"
+date: "12/02/2020"
+output: html_document
+---
+This should be reported as a major concern as it has been determined that this unknown DNA sequence is sourced from the Wuhan seafood market in China and it contains the novel Coronavirus strain. 
+```{r setup, include=FALSE}
+library(ggtree)
+ggtree(ncovTree)```
+
+
